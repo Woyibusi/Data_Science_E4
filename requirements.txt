@@ -1,0 +1,12 @@
+dash
+flask
+pandas
+numpy
+statsmodels
+pmdarima
+tensorflow
+filterpy
+fastapi
+uvicorn
+requests
+plotly
