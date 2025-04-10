@@ -7,7 +7,8 @@ def clean_series(df):
         series = df["Consommation"].copy()
         # Fill missing values using time interpolation
         series = series.interpolate(method='time')
-        series = series.fillna(method='ffill')
+        series = series.ffill()
+
         return series
     else:
         return pd.Series()
